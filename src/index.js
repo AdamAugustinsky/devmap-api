@@ -10,9 +10,6 @@ mongoose.connect('mongodb+srv://omnistack:omnistack@cluster0-pvxkk.gcp.mongodb.n
   useUnifiedTopology: true,
 });
 
-mongoose.set('useNewUrlParser', true);
-mongoose.set('useFindAndModify', false);
-mongoose.set('useCreateIndex', true);
 
 app.use(cors());
 app.use(express.json());
